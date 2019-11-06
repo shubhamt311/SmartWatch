@@ -36,7 +36,7 @@ void showTimeAnalog(int center_x, int center_y, double pl1, double pl2, double p
   x2 = center_x + (Radius * pl2) * cos((6 * pl3 - LR) * RAD);
   y2 = center_y + (Radius * pl2) * sin((6 * pl3 - LR) * RAD);
   display.drawLine((int)x1, (int)y1, (int)x2, (int)y2, WHITE);
-}
+}  
 
 void digitalClock()
 {
