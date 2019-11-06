@@ -98,7 +98,7 @@ void Network()
 void setup()
 {
   Serial.begin(9600);
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // initialize with the I2C addr 0x3D (for the 128x64)
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // initialize with the I2C addr to set the margens 0x3D (for the 128x64)
   display.clearDisplay();
   Serial1.begin(9600);
   Serial1.println("System Ready");
